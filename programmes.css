@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+#main{
+    margin: 10px 0;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box-main{
+    margin: 10px;
+}
+
+.main{
+    font-style: italic;
+}
+
+.box-main p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Vast Shadow', serif;
+}
+
+#programme-deb{
+    margin: 25px 10px;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box-programme-debutant{
+    border: 2px solid gray;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 35px;
+}
+
+.box-debutant{
+    text-align: center;
+}
+
+.debutant-title{
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.decouvert-box{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.decouvert-box img{
+    height: 70%;
+    width: 70%;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 60px;
+}
+
+.decouvert-box h5{
+    font-size: 21px;
+    font-family: 'Vast Shadow', serif;
+    text-decoration: none;
+}
+
+.decouvert-box p{
+    font-size: 15px;
+    font-family: 'Vast Shadow', serif;
+    line-height: 25px;
+}
+
+#programme-confirme{
+    margin: 25px 10px;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box-programme-confirme{
+    border: 2px solid gray;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 35px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.box-confirme{
+    text-align: center;
+}
+
+.confirme-title{
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.confirme-box{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.confirme-box img{
+    height: 70%;
+    width: 70%;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 60px;
+}
+
+.confirme-box h5{
+    font-size: 21px;
+    font-family: 'Vast Shadow', serif;
+    text-decoration: none;
+}
+
+.confirme-box p{
+    font-size: 15px;
+    font-family: 'Vast Shadow', serif;
+    line-height: 25px;
+}
+
+@media screen and (min-width:1000px) {
+    #main{
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .box-main p{
+        font-size: 24px;
+        text-align: center;
+        font-family:'Signika', sans-serif;
+    }
+    #programme-deb{
+        margin: 25px 10px;
+        font-size: 34px;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+    }
+    .decouvert-box img{
+        height: auto;
+        width: 450px;
+    }
+    .box-programme-debutant{
+        border: 2px solid gray;
+        border-radius: 50px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        width: 950px;
+        height: auto;
+        text-align: center;
+    }
+    .box-debutant{
+        border: 1px solid gray;
+        border-radius: 50px ;
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+    }
+    .debutant-title{
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 0 30px;
+    }
+    #programme-confirme{
+        margin: 25px 10px;
+        font-size: 34px;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+    }
+    .box-programme-confirme{
+        border: 2px solid gray;
+        border-radius: 50px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        width: 950px;
+        height: auto;
+        text-align: center;
+    }
+    .confirme-box img{
+        height: auto;
+        width: 450px;
+    }
+    .box-confirme{
+        border: 1px solid gray;
+        border-radius: 50px ;
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+    }
+    .confirme-title{
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 0 30px;
+    }
+}
